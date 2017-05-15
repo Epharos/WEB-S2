@@ -1,0 +1,23 @@
+@media screen and (max-width : 500px)
+{
+	.hide-small
+	{
+		display : none;
+	}
+}
+
+@media screen and (min-width : 500px) and (max-width : 1150px)
+{
+	.hide-medium
+	{
+		display : none;
+	}
+}
+
+@media screen and (min-width : 1150px)
+{
+	.hide-big
+	{
+		display : none;
+	}
+}

@@ -1,0 +1,238 @@
+@import "display.css";
+@import "common.css";
+
+body
+{
+	background-image : url("../img/index/2.jpg");
+	background-position : center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body, html 
+{
+	margin : 0;
+}
+
+#top
+{
+	position : fixed;
+	top : 0;
+	left : 0;
+	right : 0;
+
+	height : 48px;
+
+	background-color : #F8F8F8;
+
+	-webkit-box-shadow : 0 -3px 5px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow : 0 -3px 5px rgba(0, 0, 0, 0.1) inset;
+    box-shadow : 0 -3px 5px rgba(0, 0, 0, 0.1) inset;
+
+    z-index : 100;
+}
+
+#topcontent
+{
+	position : relative;
+
+	width : 70%;
+	margin : auto;
+	height : 48px;
+}
+
+nav
+{
+	float : left;
+	height : 100%;
+	width : 100%;
+}
+
+#topcontent ul
+{
+	list-style : none;
+	height : 100%;
+	margin : 0;
+}
+
+#topcontent ul li
+{
+	display : inline-block;
+	font-family : "Titillium Web", sans-serif;
+	color : purple;
+	height : 100%;
+	cursor : pointer;
+}
+
+#topcontent ul li a
+{
+	display : block;
+	height : 100%;
+}
+
+#topcontent ul li:not(:last-child)
+{
+	margin-right : 2px;
+}
+
+#topcontent ul li a .text
+{
+	display : inline-block;
+
+	margin : 11px 15px auto 15px;
+}
+
+#topcontent ul li:hover
+{
+	background-color : #ECECEC;
+}
+
+#topcontent ul li a i
+{
+	font-size : 20px;
+	margin-left : 10px;
+}
+
+#topcontent img
+{
+	width : 81px;
+	height : 44px;
+	margin-top : 2px;
+}
+
+/*-----------------------*/
+
+#bg
+{
+    min-height : 100%;
+    height : 100%;
+
+    background-color : rgba(50, 50, 50, 0.4);
+    z-index : -999;
+}
+
+#content
+{
+	position : relative;
+
+	top : 48px;
+
+	width : 900px;
+	margin : auto;
+	min-height : 100%;
+	height : 100%;
+}
+
+#feed
+{
+	width : 580px;
+	margin-right : 10px;
+	min-height : 100%;
+
+	position : absolute;
+	top : 15px;
+	left : 0;
+
+	background-color : #F8F8F8;
+
+	-webkit-box-shadow : -5px 0 3px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow : -5px 0 3px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1) inset;
+    box-shadow : -5px 0 3px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1) inset;
+}
+
+p
+{
+	font-size : 18px;
+	font-family : "Titillium Web", sans-serif;
+	margin : 0 30px;
+	text-align : right;
+}
+
+#right
+{
+	position : absolute;
+	top : 0;
+	right : 0;
+
+	width : 310px;
+
+	margin-left : 10px;
+	min-height : 100%;
+}
+
+#personnalinfo
+{
+	margin-left : 10px;
+	margin-top : 15px;
+	width : 300px;
+	-webkit-box-shadow : 0 1px 10px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow : 0 1px 10px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1) inset;
+    box-shadow : 0 1px 10px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1) inset;
+    padding : 12px;
+
+    background-color : #F3F3F3;
+}
+
+.profilepicture
+{
+	width : 64px; 
+	height : 64px; 
+	border-radius : 50%; 
+	position : absolute;
+	left : 50%;
+	transform : translateX(-25%);
+}
+
+#username
+{
+	text-align : center;
+	font-family : "Playfair Display", serif;
+	color : purple;
+	font-size : 20px;
+
+	margin-top : 68px;
+}
+
+#pseudo:before
+{
+	content : "@";
+	color : gray;
+}
+
+#pseudo
+{
+	text-align : center;
+	font-family : "Playfair Display", serif;
+	color : purple;
+}
+
+#pseudo:hover
+{
+
+}
+
+h2, h3
+{
+	margin : 0;
+	padding : 0;
+	border : 0;
+	font-weight : none;
+}
+
+#infos
+{
+	margin-top : 10px;
+	width : 100%;
+	border : 1px solid purple;
+	text-align : center;
+}
+
+#first
+{
+	font-size : 20px;
+}
+
+#second
+{
+	font-size : 14px;
+}

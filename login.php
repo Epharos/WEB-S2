@@ -1,6 +1,6 @@
-<?php session_start() ?>
+<?php session_start(); ?>
 
-<?php
+<!-- <?php
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 
@@ -39,9 +39,9 @@
 
 		fclose($file);
 	}
-?>
+?> -->
 
-<DOCTYPE HTML>
+<!DOCTYPE HTML>
 
 <html>
 	<head>
@@ -53,10 +53,11 @@
 	</head>
 
 	<body>
-		<?php
+
+	Salut
+		<!-- <?php
 			if(isset($_SESSION['connected']) AND isset($_SESSION['username']))
 			{
-				echo 'ta race';
 				header('Location: feed.php');
 			}
 		?>
@@ -92,12 +93,11 @@
 							echo '<p id="welcome">Vous avez fait tellement d\'effet à notre serveur qu\'il n\'a pas pu ouvrir votre fichier :o<br>Peut-être va t-il revenir si vous <a href="index.php">réessayez</a> ?</p>';
 							break;
 						default :
-							case 30 :
 							echo '<p id="welcome">Le code retourné par notre serveur n\'est même pas valable >.<<br>Peut-être va t-il <a href="index.php">revenir</a> à la normale ?</p>';
 							break;
 					}
 				?>
 			</div>
-		</div>
+		</div> -->
 	</body>
 </html>
