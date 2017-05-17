@@ -25,8 +25,6 @@
 			$content = fread($file, filesize($fname));
 			$fpass = explode(PHP_EOL, $content)[0];
 
-			echo $fpass;
-
 			if($password == $fpass)
 			{
 				$returnedCode = 20;
